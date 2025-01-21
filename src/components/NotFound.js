@@ -52,9 +52,7 @@ const FreelanceServices = () => {
             <h1 className='service-id'>{service.id}</h1>
             <h2 className='service-title'>{service.title}</h2>
             <p className='service-description'>{service.description}</p>
-            <div className='service-link'>
-              <i className='fa-solid fa-arrow-right'></i>
-            </div>
+
           </div>
         ))}
       </div>
