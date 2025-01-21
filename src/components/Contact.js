@@ -1,21 +1,65 @@
-import React from 'react'
 
 export default function Contact() {
   return (
-    <div className='Contact'>
-       <h1 className='fontcontact font-bold'>Contact</h1>
-      <div className='flex justify-evenly pt-20'> 
-    <div className='icons1'>
-    <i class="fa-brands fa-instagram"></i>
+    <div className="contact-container">
+      <h1 className="contact-title">Get in Touch</h1>
+      <p className="contact-subtitle">
+        Connect with me on social media or send me a message.
+      </p>
+      <div className="contact-icons">
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="icon instagram"
+        >
+          <i className="fa-brands fa-instagram"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="icon linkedin"
+        >
+          <i className="fa-brands fa-linkedin"></i>
+        </a>
+        <a
+          href="https://www.github.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="icon github"
+        >
+          <i className="fa-brands fa-github"></i>
+        </a>
+        <a
+          href="https://www.twitter.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="icon twitter"
+        >
+          <i className="fa-brands fa-x-twitter"></i>
+        </a>
+      </div>
+      <form className="contact-form">
+        <input
+          type="text"
+          placeholder="Your Name"
+          className="form-input"
+        />
+        <input
+          type="email"
+          placeholder="Your Email"
+          className="form-input"
+        />
+        <textarea
+          placeholder="Your Message"
+          className="form-textarea"
+        ></textarea>
+        <button type="submit" className="form-button">
+          Send Message
+        </button>
+      </form>
     </div>
-    <div className='icons2'>
-    <i class="fa-brands fa-linkedin"></i>
-    </div>
-    <div className='icons3'><i class="fa-brands fa-github"></i></div>
-    <div className='icons4'>
-    <i class="fa-brands fa-x-twitter"></i>
-    </div>
-    </div>
-    </div>
-  )
+  );
 }
+
