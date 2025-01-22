@@ -4,7 +4,7 @@ import Mypic from '../Assets/img1.jpg'
 export const Firstpage = () => {
   return (
     <div id='page1'>
-      <div className='bg1 flex justify-center gap-40 pt-28'>
+      <div className='bg1 '>
           <img className='mypic1' src={Mypic} alt='../' />
                 <div>
           <h1 className='firstfont'>I am Dharneesh Thangavel</h1>
