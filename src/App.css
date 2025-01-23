@@ -689,3 +689,7 @@ body {
   text-align: center;
   margin: 20px;
 }
+
+.form-textarea{
+  color: black;
+}
