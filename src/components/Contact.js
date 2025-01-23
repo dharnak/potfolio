@@ -87,7 +87,7 @@ export default function Contact() {
           required
         />
         <input
-          type="email"
+          type="email"                                                                                            
           name="email"
           placeholder="Your Email"
           className="form-input"
